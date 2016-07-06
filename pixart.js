@@ -1,7 +1,7 @@
 $(document).on("ready", function() {
     console.log("WORKING!");
 })
-
+// testing git branching
 var colorInput = $("#color-field");
 var form = $("#form");
 var brush = $(".brush");
@@ -9,7 +9,7 @@ form.on("submit", function(form) {
 //Because it's a form with an input, you are acutally "clicking" submit. Use submit!
 //Submit works for both "clicking" and pressing enter.
 form.preventDefault();
-brush.css("background", colorInput.val());
+brush.css("background", colorInput.val(git));
 })
 
 var i=0;
